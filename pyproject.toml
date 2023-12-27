@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mjugg"
+version = "0.1.0"
+
+description = "Mjugg is a pythoic view of basic musical structures."
+
+authors = ["45panov <khorkov.anton@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
